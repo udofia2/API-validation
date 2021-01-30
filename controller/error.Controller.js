@@ -4,9 +4,8 @@ module.exports = (err, req, res, next) => {
 
   res.status(err.statusCode).json({
     msg: err.message,
-    status: err.status,
-    stack: err.stack.split("\n"),
-    err: err
+    status: 'error',
+    data: null
   })
 
 }
