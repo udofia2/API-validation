@@ -1,4 +1,5 @@
 # Rule Validation API
+This project verify api endpoint using joi
 
 Conditions for validating the api route
 
